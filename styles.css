@@ -1,0 +1,232 @@
+body{
+	background-image: url("images/background.jpg");
+	background-size: 100%;
+}
+
+p{
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+h1{
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+	font-size: 2.7em;
+}
+
+h2{
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.chuchoter{
+	text-transform: lowercase;
+	font-size: 0.7em;
+}
+
+.red{
+	color: #FF0000;
+}
+
+.green{
+	color: #18B400;
+}
+
+.lien{
+	text-decoration: none;
+	color: #FF0000;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+.lien:hover{
+	color: #0049FF;
+	text-decoration: none;
+}
+
+
+/* NAVIGATION */
+
+.navigation{
+	background-color: #F10000;
+	position: fixed;
+	top: 5px;
+	width: 98%;
+	height: 115px;
+	box-shadow: 5px 5px 15px black;
+}
+
+.logo-skyxo{
+	float: left;
+	height: 96px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.titre-site{
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 3em;
+
+}
+
+nav ul{
+	margin-right: 20px;
+}
+
+nav ul li{
+	list-style-type: none;
+	float: right;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+
+nav ul li a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+	font-size: 1.3em;
+	padding: 15px 15px;
+	text-align: center;
+	color: black;
+}
+
+nav ul li a:hover{
+	background-color: #BA0000;
+	color: #FFFFFF;
+	text-shadow: 10px 5px 10px black;
+	text-decoration: none;
+}
+
+/* NAVIGATION */
+
+/* MENU */
+
+.construction{
+	margin: 50px;
+	margin-top: 170px;
+	padding: 25px;
+	background-color: #FFFFFF;
+}
+
+.bonjour{
+	margin: 50px;
+	margin-top: 170px;
+	padding: 25px;
+	background-color: #FFFFFF;
+}
+
+.table_matieres{
+	margin: 50px;
+	margin-top: 50;
+	padding: 25px;
+	background-color: #FFFFFF;
+}
+
+.chaine{
+	margin: 50px;
+	margin-top: 170px;
+	padding: 25px;
+	background-color: #FFFFFF;
+}
+
+.subscribers{
+	position: relative;
+	width: 45%;
+	margin-left: 50px;
+	background-color: #FFFFFF;
+	text-align: center;
+	float: left;
+}
+
+.videopiano{
+	position: relative;
+	width: 45%;
+	margin-right: 50px;
+	background-color: #FFFFFF;
+	text-align: center;
+	float: right;
+}
+
+.playlisthammer{
+	position: relative;
+	width: 45%;
+	margin-left: 50px;
+	margin-top: 50px;
+	background-color: #FFFFFF;
+	text-align: center;
+	float: left;
+}
+
+.contacts{
+	margin: 50px;
+	margin-top: 170px;
+	padding: 25px;
+	background-color: #FFFFFF;
+}
+
+/* CHAINE YOUTUBE*/
+
+.abonner{
+	width: 200px;
+}
+
+/* CHAINE YOUTUBE*/
+
+/* CONTACTS */
+
+.icon{
+	width: 50px;
+	margin-right: 10px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.contacts ul li{
+	list-style-type: none;
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-size: 1.4em;
+	line-height: 1.6em;
+	font-weight: bold;
+}
+
+
+/* CONTACTS */
+
+/* BAS DE PAGE */
+
+footer{
+	margin-top: 50px;
+	background-color: #F10000;
+	width: 100%;
+	height: 50px;
+	box-shadow: 5px 5px 15px black;
+	display: inline-block;
+	bottom: 0;
+}
+
+.footer{
+	background-color: #F10000;
+	width: 98%;
+	height: 50px;
+	box-shadow: 5px 5px 15px black;
+	position: fixed;
+	bottom: 0;
+}
+
+footer p{
+	color: #000000;
+	display: inline-block;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+footer p a img{
+	height: 40px;
+	position: absolute;
+	margin-top: -3px;
+	margin-left: 10px;
+}
+
+/* BAS DE PAGE */
